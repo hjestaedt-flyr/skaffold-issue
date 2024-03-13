@@ -1,0 +1,8 @@
+apiVersion: skaffold/v4beta9
+kind: Config
+
+metadata:
+  name: skaffold-set-issue
+
+requires:
+  - path: src/foobar
